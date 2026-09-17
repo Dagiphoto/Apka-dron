@@ -58,5 +58,545 @@
     ],
     "correctAnswerIndex": 2,
     "explanation": "Před každým letem je pilot povinen ověřit, zda se nenachází v omezeném nebo zakázaném vzdušném prostoru, zkontrolovat případná místní omezení (např. přes mapové aplikace pro UAS) a posoudit meteorologické podmínky i technický stav letadla, aby byl let proveden bezpečně a v souladu s předpisy."
+  },
+  {
+    "id": 6,
+    "question": "Nad jakou skupinou osob nesmí bezpilotní letadlo létat v otevřené kategorii (tedy ani v podkategorii A2) za žádných okolností?",
+    "options": [
+      "Nad jednotlivými chodci na chodníku",
+      "Nad shromážděním osob",
+      "Nad zaparkovanými auty",
+      "Nad zemědělskou půdou"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Let nad shromážděním osob (např. koncert, sportovní akce, demonstrace) je v otevřené kategorii zakázán bez ohledu na podkategorii, protože se jedná o místo, kde by se lidé v případě nebezpečí nemohli rychle rozptýlit."
+  },
+  {
+    "id": 7,
+    "question": "Co musí dálkově řídící pilot učinit před prvním letem s dronem těžším než 250 g nebo vybaveným kamerou?",
+    "options": [
+      "Zaregistrovat se jako provozovatel UAS u příslušného úřadu",
+      "Zažádat o pilotní průkaz letadla",
+      "Pojistit dron u libovolné pojišťovny",
+      "Nahlásit let místnímu letišti"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Provozovatel dronu s hmotností nad 250 g (nebo vybaveného kamerou) se musí zaregistrovat u příslušného národního úřadu (v ČR Úřad pro civilní letectví) a získat registrační číslo provozovatele."
+  },
+  {
+    "id": 8,
+    "question": "Kam musí provozovatel umístit přidělené registrační číslo UAS operátora?",
+    "options": [
+      "Do uživatelské příručky dronu",
+      "Viditelně a čitelně na povrch dronu",
+      "Pouze do mobilní aplikace výrobce",
+      "Není potřeba jej nikam umisťovat"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Registrační číslo provozovatele musí být na dronu umístěno viditelně a čitelně (např. odolnou nálepkou), aby jej bylo možné identifikovat i v případě nálezu havarovaného či ztraceného stroje."
+  },
+  {
+    "id": 9,
+    "question": "Co znamená zkratka VLOS používaná v pravidlech pro provoz dronů?",
+    "options": [
+      "Vertical Line of Separation",
+      "Visual Line of Sight – let s přímým vizuálním kontaktem",
+      "Variable Location Operating System",
+      "Very Low Operational Speed"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "VLOS (Visual Line of Sight) znamená, že pilot musí mít po celou dobu letu dron na dohled pouhým okem, bez využití kamery nebo dalekohledu, a je schopen sledovat jeho okolí."
+  },
+  {
+    "id": 10,
+    "question": "Je v otevřené kategorii (a tedy i v podkategorii A2) povolen let mimo přímý vizuální kontakt (BVLOS)?",
+    "options": [
+      "Ano, kdykoliv bez omezení",
+      "Ne, otevřená kategorie vyžaduje vždy přímý vizuální kontakt (VLOS)",
+      "Ano, ale jen v noci",
+      "Ano, pokud má dron kameru s přenosem obrazu"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "V otevřené kategorii, kam A2 patří, musí být let veden vždy s přímým vizuálním kontaktem (VLOS). Let mimo VLOS (BVLOS) je možný pouze ve specifické nebo certifikované kategorii provozu."
+  },
+  {
+    "id": 11,
+    "question": "Je povolen noční let s dronem v podkategorii A2?",
+    "options": [
+      "Ne, noční lety jsou v otevřené kategorii obecně zakázány",
+      "Ano, pokud je dron vybaven funkčním zeleným blikajícím světlem",
+      "Ano, ale pouze nad vodní plochou",
+      "Ano, ale jen s písemným povolením ÚCL pro každý jednotlivý let"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Noční létání je v otevřené kategorii povoleno, pokud je dron vybaven zeleným blikajícím světlem, které umožní jeho rozeznání od jiných letadel a určení směru letu."
+  },
+  {
+    "id": 12,
+    "question": "Co je úkolem tzv. geo-awareness (geografického povědomí) systému dronu?",
+    "options": [
+      "Automaticky nabíjí baterii dronu",
+      "Upozorňuje pilota na blízkost omezeného nebo zakázaného vzdušného prostoru",
+      "Zvyšuje maximální rychlost dronu",
+      "Nahrazuje potřebu vizuálního kontaktu s dronem"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Systém geo-awareness poskytuje pilotovi informace o geografických zónách s omezeními (např. blízkost letiště), aby předešel neúmyslnému vstupu do zakázaného nebo omezeného vzdušného prostoru."
+  },
+  {
+    "id": 13,
+    "question": "Kdo má vždy přednost, pokud by mohlo dojít ke střetu dráhy letu dronu s posádkovým (manned) letadlem?",
+    "options": [
+      "Dron, protože je menší a obratnější",
+      "Posádkové letadlo má vždy přednost",
+      "Ten, kdo zahájil let jako první",
+      "Záleží na výšce letu"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Bezpilotní systémy musí vždy ustoupit posádkovým letadlům. Pilot dronu je povinen sledovat okolní provoz a v případě rizika kolize neprodleně snížit výšku letu nebo přistát."
+  },
+  {
+    "id": 14,
+    "question": "Co by měl pilot udělat, pokud během letu v podkategorii A2 ztratí vizuální kontakt s dronem?",
+    "options": [
+      "Pokračovat v letu podle plánu, dron se sám vrátí",
+      "Zvýšit výšku letu, aby dron lépe viděl",
+      "Neprodleně se pokusit obnovit vizuální kontakt, případně bezpečně ukončit let",
+      "Počkat, až se dron vybije a sám přistane"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Protože otevřená kategorie vyžaduje let s přímým vizuálním kontaktem (VLOS), musí pilot při jeho ztrátě neprodleně obnovit kontakt s dronem, nebo pokud to není možné, let bezpečně ukončit."
+  },
+  {
+    "id": 15,
+    "question": "Jaká je maximální vzletová hmotnost bezpilotního letadla pro podkategorii A1 (třídy C0 a C1)?",
+    "options": [
+      "250 g",
+      "900 g",
+      "4 kg",
+      "25 kg"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Podkategorie A1 zahrnuje drony třídy C0 (do 250 g) a C1 (do 900 g). Pro srovnání, podkategorie A2 umožňuje provoz dronů třídy C2 do 4 kg."
+  },
+  {
+    "id": 16,
+    "question": "Čím se provoz v podkategorii A3 zásadně liší od podkategorie A2?",
+    "options": [
+      "A3 vyžaduje dodržení minimální vzdálenosti nejméně 150 m od obytných, rekreačních, obchodních a průmyslových oblastí",
+      "A3 umožňuje provoz jen v noci",
+      "A3 nevyžaduje žádné osvědčení pilota",
+      "A3 je určena výhradně pro lety nad vodou"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Podkategorie A3 je určena pro lety v bezpečné vzdálenosti od lidí – minimálně 150 m od obytných, rekreačních, obchodních a průmyslových zón, na rozdíl od A2, kde stačí dodržet vzdálenost 30 m (resp. 5 m) od jednotlivých osob."
+  },
+  {
+    "id": 17,
+    "question": "Jaké třídy dronů (dle klasifikace C0–C4) lze provozovat v podkategorii A3?",
+    "options": [
+      "Pouze C0",
+      "Pouze C1",
+      "C2, C3 a C4",
+      "Žádné, A3 je určena pouze pro doma vyrobené drony"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "V podkategorii A3 lze provozovat drony tříd C2, C3 a C4 s maximální vzletovou hmotností do 25 kg, protože se létá dostatečně daleko od lidí a zástavby."
+  },
+  {
+    "id": 18,
+    "question": "Smí dálkově řídící pilot v otevřené kategorii ovládat v jednu chvíli více než jeden dron?",
+    "options": [
+      "Ano, bez omezení",
+      "Ne, pilot smí v daný okamžik řídit pouze jeden bezpilotní systém",
+      "Ano, pokud má asistenta",
+      "Ano, maximálně dva drony současně"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "V otevřené kategorii smí dálkově řídící pilot v jednu chvíli ovládat pouze jeden bezpilotní systém, aby mohl věnovat letu plnou pozornost."
+  },
+  {
+    "id": 19,
+    "question": "Co znamená označení třídy C2 na štítku dronu z hlediska maximální vzletové hmotnosti?",
+    "options": [
+      "Dron smí vážit maximálně 250 g",
+      "Dron smí vážit maximálně 900 g",
+      "Dron smí vážit maximálně 4 kg",
+      "Dron smí vážit maximálně 25 kg"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Třída C2 povoluje maximální vzletovou hmotnost do 4 kg, což odpovídá hmotnostnímu limitu pro provoz v podkategorii A2."
+  },
+  {
+    "id": 20,
+    "question": "K čemu slouží tzv. režim nízké rychlosti (low-speed mode) u dronů třídy C2?",
+    "options": [
+      "Umožňuje prodloužit dolet dronu",
+      "Umožňuje snížit minimální vzdálenost od nezúčastněných osob z 30 m na 5 m",
+      "Zvyšuje maximální výšku letu",
+      "Umožňuje let v noci bez světel"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Aktivací režimu nízké rychlosti u dronu třídy C2 se sníží riziko zranění osob při případném pádu, což umožňuje pilotovi přiblížit se k nezúčastněným osobám až na 5 m místo standardních 30 m."
+  },
+  {
+    "id": 21,
+    "question": "Musí být bezpilotní systémy tříd C1, C2 a C3 vybaveny funkcí přímé identifikace na dálku (Direct Remote ID)?",
+    "options": [
+      "Ne, tato funkce se týká pouze vojenských dronů",
+      "Ano, je to jedna z povinných technických vlastností těchto tříd",
+      "Ano, ale pouze pro lety nad 100 m výšky",
+      "Ne, jedná se o čistě volitelnou funkci"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Drony tříd C1, C2 a C3 musí být podle technických požadavků vybaveny funkcí přímé identifikace na dálku, která v reálném čase vysílá identifikační a polohové údaje o letu."
+  },
+  {
+    "id": 22,
+    "question": "K čemu slouží funkce přímé identifikace na dálku (Direct Remote ID)?",
+    "options": [
+      "Automaticky vyhledává nejbližší přistávací plochu",
+      "Vysílá v reálném čase identifikační a polohové údaje o dronu okolí a úřadům",
+      "Zvyšuje maximální rychlost letu dronu",
+      "Nahrazuje nutnost registrace provozovatele"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Přímá identifikace na dálku umožňuje okolním osobám a orgánům (např. pomocí mobilní aplikace) v reálném čase zjistit identifikaci, polohu a další údaje o letícím dronu."
+  },
+  {
+    "id": 23,
+    "question": "Vztahuje se výškový limit 120 m k nadmořské výšce, nebo k výšce nad zemí?",
+    "options": [
+      "K nadmořské výšce (MSL)",
+      "K nejbližšímu bodu zemského povrchu (AGL)",
+      "K výšce vzletového místa",
+      "Limit se vůbec neuplatňuje v otevřené kategorii"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Maximální výška 120 m se měří od nejbližšího bodu zemského povrchu (AGL – above ground level), nikoli od hladiny moře, takže se přizpůsobuje terénu pod dronem."
+  },
+  {
+    "id": 24,
+    "question": "Co by měl pilot udělat, pokud si není jistý, zda smí v daném místě a čase s dronem létat?",
+    "options": [
+      "Let raději uskutečnit a řešit případný problém až dodatečně",
+      "Neuskutečnit let, dokud si informace o daném prostoru neověří",
+      "Zeptat se náhodného kolemjdoucího",
+      "Spolehnout se na to, že úřady stejně nic nezjistí"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Odpovědnost za ověření podmínek provozu nese vždy pilot. Pokud si není jistý, zda smí v daném prostoru létat, neměl by let uskutečnit, dokud si informace neověří (např. v mapové aplikaci pro UAS nebo u ÚCL)."
+  },
+  {
+    "id": 25,
+    "question": "Co je to NOTAM?",
+    "options": [
+      "Typ baterie používané v profesionálních dronech",
+      "Zpráva pro letce informující o dočasných změnách nebo omezeních ve vzdušném prostoru",
+      "Zkratka pro nový typ dronové kamery",
+      "Označení pro noční provoz dronů"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "NOTAM (Notice to Air Missions) je oficiální zpráva informující piloty o dočasných změnách, nebezpečích nebo omezeních ve vzdušném prostoru, kterou by měl pilot dronu před letem zkontrolovat."
+  },
+  {
+    "id": 26,
+    "question": "Proč by pilot neměl létat s dronem v bezprostřední blízkosti frekventovaných silnic a dálnic?",
+    "options": [
+      "Protože je to vždy přísně zakázáno zákonem bez výjimky",
+      "Kvůli riziku ohrožení bezpečnosti silničního provozu a rozptýlení řidičů",
+      "Protože dron by mohl rušit dopravní kamery",
+      "Protože nad silnicemi je vždy nižší kvalita GPS signálu"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Let v blízkosti silnic s hustým provozem zvyšuje riziko rozptýlení řidičů a v případě pádu dronu i riziko dopravní nehody, proto by se mu měl pilot pokud možno vyhýbat."
+  },
+  {
+    "id": 27,
+    "question": "Co je to shromáždění osob (assembly of people) v kontextu pravidel pro drony?",
+    "options": [
+      "Jakákoliv skupina více než dvou lidí",
+      "Situace, kdy jsou lidé nahuštěni tak, že se nemohou v případě nebezpečí rychle přesunout pryč",
+      "Pouze oficiálně ohlášené veřejné akce",
+      "Skupina lidí uvnitř budovy"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Za shromáždění osob se považuje situace, kdy je pohyb lidí natolik omezen jejich hustotou, že se nemohou v případě nebezpečí rychle přesunout do bezpečí – typicky koncerty, sportovní akce nebo demonstrace. Let nad takovým shromážděním je vždy zakázán."
+  },
+  {
+    "id": 28,
+    "question": "Kam by měl pilot nahlásit nález havarovaného cizího dronu s viditelným registračním číslem provozovatele?",
+    "options": [
+      "Do nejbližší popelnice",
+      "Úřadu pro civilní letectví nebo Policii ČR",
+      "Výrobci dronu prostřednictvím sociálních sítí",
+      "Nikam, nález nemusí nikdo řešit"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Nález dronu s registračním číslem lze nahlásit Úřadu pro civilní letectví nebo Policii ČR, které mohou podle čísla dohledat provozovatele."
+  },
+  {
+    "id": 29,
+    "question": "Je pro provoz v podkategorii A2 vyžadován kromě teoretické zkoušky i praktický nácvik letových dovedností?",
+    "options": [
+      "Ne, stačí pouze absolvovat online test",
+      "Ano, pilot musí sám absolvovat praktický nácvik a čestně prohlásit jeho zvládnutí",
+      "Ano, ale jen pokud dron váží více než 4 kg",
+      "Ne, praktický nácvik je vyžadován pouze u specifické kategorie"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Kromě složení teoretické zkoušky pro A2 je pilot povinen samostatně (formou čestného prohlášení, bez nutnosti dokládat úřadu) absolvovat praktický nácvik letových dovedností odpovídající riziku provozu."
+  },
+  {
+    "id": 30,
+    "question": "Jak nízká okolní teplota obvykle ovlivňuje výdrž baterie dronu?",
+    "options": [
+      "Nemá na baterii žádný vliv",
+      "Zvyšuje kapacitu baterie a prodlužuje dobu letu",
+      "Snižuje kapacitu baterie a zkracuje dobu letu",
+      "Baterie v chladu funguje efektivněji než za tepla"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Nízké teploty snižují chemickou účinnost baterie, což vede ke snížení její kapacity a zkrácení reálné doby letu oproti běžným podmínkám."
+  },
+  {
+    "id": 31,
+    "question": "Jak silný protivítr obecně ovlivňuje spotřebu energie a dolet dronu?",
+    "options": [
+      "Nemá žádný vliv na spotřebu energie",
+      "Zvyšuje spotřebu energie a snižuje dosažitelný dolet i dobu letu",
+      "Snižuje spotřebu energie a prodlužuje dolet",
+      "Ovlivňuje pouze rychlost, ne spotřebu"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Let proti silnému větru vyžaduje více energie na udržení polohy a rychlosti, což zvyšuje spotřebu baterie a snižuje jak dolet, tak celkovou dobu letu."
+  },
+  {
+    "id": 32,
+    "question": "Kde lze při letu s dronem očekávat zvýšený výskyt turbulence?",
+    "options": [
+      "Nad velkými otevřenými vodními plochami za bezvětří",
+      "V blízkosti budov a terénních překážek, zejména na jejich závětrné straně",
+      "Ve vysoké nadmořské výšce nad 5000 m",
+      "Turbulence se u malých dronů nikdy nevyskytuje"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Budovy, stromy a terénní nerovnosti narušují proudění vzduchu a vytvářejí turbulentní víry, zejména na závětrné straně, což může negativně ovlivnit stabilitu letu dronu."
+  },
+  {
+    "id": 33,
+    "question": "Jaký zdroj informací o počasí by měl pilot přednostně použít před letem s dronem?",
+    "options": [
+      "Odhad podle vlastního pocitu z okna",
+      "Oficiální meteorologické zdroje (např. ČHMÚ) nebo specializované aplikace pro piloty",
+      "Informace od náhodných kolemjdoucích",
+      "Staré meteorologické zprávy z předchozího týdne"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Pro spolehlivé posouzení povětrnostních podmínek by měl pilot využívat oficiální meteorologické zdroje nebo specializované letecké/dronové meteorologické aplikace, nikoli odhad."
+  },
+  {
+    "id": 34,
+    "question": "Jak může silné protisvětlo (např. nízké slunce) ovlivnit bezpečnost letu s dronem?",
+    "options": [
+      "Nemá na bezpečnost letu žádný vliv",
+      "Může oslnit pilota a znemožnit mu udržet vizuální kontakt s dronem",
+      "Zlepšuje viditelnost dronu na obloze",
+      "Prodlužuje výdrž baterie"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Protisvětlo může pilota oslnit a ztížit či znemožnit udržení nepřetržitého vizuálního kontaktu s dronem, což zvyšuje riziko ztráty kontroly nad letem."
+  },
+  {
+    "id": 35,
+    "question": "Jak rostoucí nadmořská výška (a s ní klesající hustota vzduchu) ovlivňuje výkon vrtulí dronu?",
+    "options": [
+      "Výkon vrtulí se s výškou zvyšuje",
+      "Nižší hustota vzduchu snižuje vztlak vytvářený vrtulemi a zhoršuje výkon dronu",
+      "Hustota vzduchu nemá na výkon vrtulí žádný vliv",
+      "Dron létá tím rychleji, čím je vzduch řidší"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Se stoupající nadmořskou výškou klesá hustota vzduchu, což snižuje vztlak generovaný vrtulemi a celkově zhoršuje výkon a nosnost dronu, zejména ve vyšších horských oblastech."
+  },
+  {
+    "id": 36,
+    "question": "Co patří mezi tzv. lidský faktor (human factor), který může ohrozit bezpečnost letu s dronem?",
+    "options": [
+      "Kvalita GPS signálu",
+      "Únava, stres nebo přeceňování vlastních schopností pilota",
+      "Teplota okolního vzduchu",
+      "Barva dronu"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Lidský faktor zahrnuje psychický a fyzický stav pilota – únavu, stres, nedostatek zkušeností nebo přeceňování vlastních schopností – což jsou časté příčiny leteckých nehod včetně nehod s drony."
+  },
+  {
+    "id": 37,
+    "question": "Kdo nese odpovědnost za škodu způsobenou třetí osobě pádem dronu?",
+    "options": [
+      "Výrobce dronu vždy a bez výjimky",
+      "Provozovatel/pilot bezpilotního systému",
+      "Úřad pro civilní letectví",
+      "Škoda se nikdy nenahrazuje"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Za škodu způsobenou provozem bezpilotního systému odpovídá jeho provozovatel, resp. dálkově řídící pilot, obdobně jako u jiných dopravních prostředků."
+  },
+  {
+    "id": 38,
+    "question": "Je vyžadován zvláštní souhlas či koordinace, pokud chce pilot létat s dronem v ochranném pásmu letiště?",
+    "options": [
+      "Ne, ochranná pásma letišť se drony vůbec netýkají",
+      "Ano, provoz v blízkosti letišť podléhá zvláštním omezením a často vyžaduje koordinaci/povolení",
+      "Ano, ale pouze u letišť s mezinárodním provozem",
+      "Ne, stačí letět níže než 10 m"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "V okolí letišť platí zvláštní omezení vzdušného prostoru kvůli bezpečnosti provozu posádkových letadel, a let dronem zde je zpravidla podmíněn povolením nebo koordinací s příslušným subjektem řízení letového provozu."
+  },
+  {
+    "id": 39,
+    "question": "Jak by měl pilot postupovat při technické závadě dronu za letu, například při výpadku GPS signálu?",
+    "options": [
+      "Ignorovat závadu a pokračovat v plánovaném letu",
+      "Být připraven převzít manuální kontrolu a co nejdříve bezpečně přistát",
+      "Okamžitě dron shodit na zem, aby se zabránilo horšímu",
+      "Zvýšit výšku letu a čekat na signál"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Při technické závadě, jako je výpadek GPS, by měl pilot být připraven převzít manuální řízení a bezpečně a co nejdříve dron přistát, aby minimalizoval riziko pro osoby a majetek na zemi."
+  },
+  {
+    "id": 40,
+    "question": "Který orgán je v České republice odpovědný za registraci provozovatelů bezpilotních systémů?",
+    "options": [
+      "Policie České republiky",
+      "Úřad pro civilní letectví (ÚCL)",
+      "Česká obchodní inspekce",
+      "Hasičský záchranný sbor ČR"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "V České republice zajišťuje registraci provozovatelů bezpilotních systémů a vydávání osvědčení pilotů Úřad pro civilní letectví (ÚCL)."
+  },
+  {
+    "id": 41,
+    "question": "K čemu slouží mapové aplikace pro UAS (např. pro plánování letů s drony)?",
+    "options": [
+      "K nahrávání videí z letu na sociální sítě",
+      "K zobrazení aktuálních omezení vzdušného prostoru a ověření, zda je let v daném místě povolen",
+      "Pouze k měření vzdálenosti k nejbližší kavárně",
+      "Ke kalibraci kompasu dronu"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Mapové aplikace pro UAS zobrazují aktuální omezené a zakázané zóny, ochranná pásma letišť a další omezení, díky čemuž si pilot může před letem ověřit, zda smí na daném místě létat."
+  },
+  {
+    "id": 42,
+    "question": "Jaký je hlavní rozdíl mezi 'otevřenou' a 'specifickou' kategorií provozu dronů?",
+    "options": [
+      "Otevřená kategorie je určena pro nízkorizikové lety bez nutnosti povolení úřadu, specifická vyžaduje povolení kvůli vyššímu riziku",
+      "Specifická kategorie je určena pouze pro hračky",
+      "Otevřená kategorie se týká pouze nočních letů",
+      "Rozdíl je pouze v barvě registrační nálepky"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Otevřená kategorie (A1, A2, A3) pokrývá nízkorizikové lety bez nutnosti individuálního povolení úřadu, zatímco specifická kategorie se týká rizikovějších provozů (např. BVLOS, vyšší hmotnost) a vyžaduje povolení nebo prohlášení o shodě se standardním scénářem."
+  },
+  {
+    "id": 43,
+    "question": "Musí dálkově řídící pilot mít při letu v podkategorii A2 možnost prokázat svoji kvalifikaci?",
+    "options": [
+      "Ne, kvalifikace se nikde neověřuje",
+      "Ano, měl by být schopen na vyžádání prokázat platné osvědčení A2",
+      "Ano, ale pouze při letech nad 100 m",
+      "Ne, stačí dron mít zaregistrovaný"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Pilot by měl být kdykoliv během letu schopen prokázat příslušným orgánům (např. Policii ČR), že vlastní platné osvědčení dálkově řídícího pilota potřebné pro danou podkategorii, tedy A2."
+  },
+  {
+    "id": 44,
+    "question": "Co je hlavním smyslem online teoretického kurzu a testu pro podkategorie A1/A3?",
+    "options": [
+      "Naučit pilota profesionálně upravovat video",
+      "Ověřit základní znalosti pravidel létání, bezpečnosti a odpovědnosti pilota",
+      "Získat slevu na nákup nového dronu",
+      "Umožnit registraci dronu jako vozidla"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Online kurz a test pro A1/A3 ověřuje základní teoretické znalosti nezbytné pro bezpečný provoz dronu v otevřené kategorii, včetně pravidel létání, odpovědnosti a bezpečnostních zásad."
+  },
+  {
+    "id": 45,
+    "question": "Proč nestačí pro provoz v podkategorii A2 pouze osvědčení pro A1/A3?",
+    "options": [
+      "Protože osvědčení A1/A3 je časově omezené na jeden den",
+      "Protože A2 vyžaduje rozšířené znalosti (např. meteorologii, výkonnost letu) ověřené zkouškou u uznaného subjektu",
+      "Protože osvědčení A1/A3 platí pouze pro drony do 100 g",
+      "Osvědčení A1/A3 ve skutečnosti pro A2 stačí"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Podkategorie A2 umožňuje lety blíže k lidem s těžšími drony, a proto vyžaduje nad rámec základního osvědčení A1/A3 ještě rozšířenou zkoušku zaměřenou na meteorologii, výkonnost letu a zmírňování rizik pro osoby na zemi."
+  },
+  {
+    "id": 46,
+    "question": "Jak se nazývá dokument, kterým pilot čestně prohlašuje zvládnutí praktického nácviku pro podkategorii A2?",
+    "options": [
+      "Letová kniha",
+      "Sebehodnotící čestné prohlášení o praktickém výcviku",
+      "Technický průkaz dronu",
+      "Prohlášení o shodě CE"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Před podáním žádosti o osvědčení A2 pilot sám (formou čestného prohlášení) potvrzuje, že absolvoval potřebný praktický nácvik letových dovedností."
+  },
+  {
+    "id": 47,
+    "question": "Jaký je účel protisrážkových světel u dronu?",
+    "options": [
+      "Zlepšují signál dálkového ovládání",
+      "Zvyšují viditelnost dronu pro ostatní účastníky vzdušného provozu a snižují riziko kolize",
+      "Prodlužují výdrž baterie",
+      "Slouží pouze jako estetický doplněk"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Protisrážková (výstražná) světla zvyšují viditelnost dronu pro ostatní letadla i pozorovatele na zemi, což snižuje riziko srážky, zejména za snížené viditelnosti nebo v noci."
+  },
+  {
+    "id": 48,
+    "question": "Co by měl pilot zvážit před rozhodnutím létat v husté městské zástavbě, i když je to v podkategorii A2 teoreticky umožněno?",
+    "options": [
+      "Nic, ve městě je vždy bezpečněji než na venkově",
+      "Zvýšené riziko kolizí s překážkami, ztráty signálu a přítomnosti mnoha nezúčastněných osob",
+      "Kvalitu kávy v okolních kavárnách",
+      "Cenu parkovného v okolí"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Hustá městská zástavba přináší vyšší riziko kolize s budovami a překážkami, možné rušení signálu a vyšší pravděpodobnost výskytu nezúčastněných osob, což klade zvýšené nároky na opatrnost pilota."
+  },
+  {
+    "id": 49,
+    "question": "Jaký je rozdíl mezi pojmy 'dálkově řídící pilot' a 'provozovatel bezpilotního systému' (UAS operátor)?",
+    "options": [
+      "Jsou to vždy dvě různé osoby ze zákona",
+      "Pilot fyzicky ovládá dron, provozovatel je registrovaný subjekt odpovědný za jeho provoz (může jít i o stejnou osobu)",
+      "Provozovatel je vždy stát",
+      "Pojmy jsou zcela totožné a zaměnitelné ve všech ohledech"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Dálkově řídící pilot je osoba, která dron fyzicky ovládá, zatímco provozovatel (UAS operátor) je registrovaný subjekt odpovědný za jeho provoz – v praxi se u soukromých uživatelů často jedná o stejnou osobu."
+  },
+  {
+    "id": 50,
+    "question": "Proč je důležité před letem zkontrolovat stav vrtulí a upevnění baterie dronu?",
+    "options": [
+      "Není to důležité, kontrola se dělá jen jednou za rok",
+      "Poškozené vrtule nebo uvolněná baterie mohou způsobit ztrátu kontroly nebo pád dronu za letu",
+      "Kontrola vrtulí ovlivňuje pouze estetický vzhled dronu",
+      "Baterie se nikdy neuvolňuje během letu"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Poškozené vrtule či nedostatečně zajištěná baterie mohou za letu způsobit ztrátu stability, výpadek napájení nebo pád dronu, proto je jejich kontrola nedílnou součástí předletové přípravy."
   }
 ]
