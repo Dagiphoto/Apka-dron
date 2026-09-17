@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "V jaké maximální výšce nad zemí nebo vodou lze standardně provozovat bezpilotní systém v otevřené kategorii, pokud úřad nestanoví jinak?",
+    "options": [
+      "50 metrů",
+      "120 metrů",
+      "150 metrů",
+      "300 metrů"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "V otevřené kategorii (kam patří i podkategorie A2) je standardní maximální výška letu 120 metrů nad nejbližším bodem zemského povrchu, pokud vnitrostátní předpisy nestanoví výjimku (např. překonání překážky)."
+  },
+  {
+    "id": 2,
+    "question": "Jakou minimální vodorovnou vzdálenost od nezapojených osob musí dodržet dálkově řídící pilot při letu v podkategorii A2 v běžném režimu (bez použití režimu nízké rychlosti)?",
+    "options": [
+      "5 metrů",
+      "10 metrů",
+      "30 metrů",
+      "50 metrů"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "V podkategorii A2 musí pilot za standardních podmínek dodržet horizontální vzdálenost minimálně 30 metrů od nezúčastněných osob. Tuto vzdálenost lze snížit až na 5 metrů pouze při aktivaci režimu nízké rychlosti (low-speed mode) u dronů, které jej podporují."
+  },
+  {
+    "id": 3,
+    "question": "Jaký je maximální vzletový hmotnostní limit bezpilotního letadla pro provoz v podkategorii A2?",
+    "options": [
+      "250 g",
+      "900 g",
+      "4 kg",
+      "25 kg"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Podkategorie A2 umožňuje provoz dronů třídy C2 (případně za přechodných ustanovení i soukromě vyrobených či starších dronů) s maximální vzletovou hmotností do 4 kg."
+  },
+  {
+    "id": 4,
+    "question": "Jaké osvědčení musí mít dálkově řídící pilot pro samostatný provoz v podkategorii A2?",
+    "options": [
+      "Postačuje online kurz a test pro otevřenou kategorii A1/A3",
+      "Osvědčení o absolvování dálkově řízeného pilota kategorie A2 (teoretická zkouška u uznaného subjektu)",
+      "Průkaz způsobilosti pilota letadla podle předpisu part-FCL",
+      "Žádné osvědčení není vyžadováno, stačí registrace provozovatele"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Pro let v podkategorii A2 musí mít pilot kromě základního online osvědčení A1/A3 navíc osvědčení o teoretických znalostech pro kategorii A2, které vyžaduje složení zkoušky u uznaného subjektu (např. Úřad pro civilní letectví) a zahrnuje rozšířené znalosti o meteorologii, výkonnosti letu a zmírňování rizik pro osoby na zemi."
+  },
+  {
+    "id": 5,
+    "question": "Co je povinen dálkově řídící pilot udělat před zahájením letu v podkategorii A2?",
+    "options": [
+      "Nic, stačí mít dron zaregistrovaný",
+      "Zkontrolovat pouze stav baterie",
+      "Zjistit aktuální vzdušný prostor, provozní omezení dané lokality a posoudit povětrnostní podmínky",
+      "Nahlásit let telefonicky místní policii"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Před každým letem je pilot povinen ověřit, zda se nenachází v omezeném nebo zakázaném vzdušném prostoru, zkontrolovat případná místní omezení (např. přes mapové aplikace pro UAS) a posoudit meteorologické podmínky i technický stav letadla, aby byl let proveden bezpečně a v souladu s předpisy."
+  }
+]

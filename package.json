@@ -1,0 +1,13 @@
+{
+  "name": "a2-dron-test",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build:css": "tailwindcss -i css/input.css -o css/tailwind.css --minify",
+    "watch:css": "tailwindcss -i css/input.css -o css/tailwind.css --watch",
+    "serve": "python3 -m http.server 8080"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3"
+  }
+}

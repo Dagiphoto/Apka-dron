@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>A2 Dron Test — Procvičování testových otázek</title>
+<meta name="description" content="Procvičte si testové otázky na dálkově řízené letadlo (dron) kategorie A2. Náhodný výběr otázek, okamžité vyhodnocení a podrobné vysvětlivky." />
+<meta name="theme-color" content="#0f172a" />
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="icon" href="icons/icon-192.png" type="image/png" />
+<link rel="apple-touch-icon" href="icons/icon-192.png" />
+
+<link rel="stylesheet" href="css/tailwind.css" />
+</head>
+<body class="min-h-screen font-sans text-ink-900 dark:text-ink-100 antialiased">
+
+  <div id="app" class="min-h-screen flex flex-col"></div>
+
+  <template id="tpl-home">
+    <div class="flex-1 flex items-center justify-center px-4 py-10">
+      <div class="w-full max-w-lg fade-in">
+        <div class="text-center mb-8">
+          <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-brand-600 text-white text-3xl mb-4 shadow-lg shadow-brand-600/30">
+            🛰️
+          </div>
+          <h1 class="text-2xl sm:text-3xl font-bold tracking-tight">A2 Dron Test</h1>
+          <p class="mt-2 text-ink-500 dark:text-ink-300">Procvičování testových otázek pro podkategorii A2</p>
+        </div>
+
+        <div class="bg-white dark:bg-ink-800 rounded-2xl shadow-sm border border-ink-100 dark:border-ink-700 p-6 sm:p-8">
+          <dl class="grid grid-cols-2 gap-4 mb-6 text-sm">
+            <div>
+              <dt class="text-ink-400 dark:text-ink-400">Otázek v testu</dt>
+              <dd class="font-semibold text-lg" data-field="question-count">—</dd>
+            </div>
+            <div>
+              <dt class="text-ink-400 dark:text-ink-400">Hranice úspěšnosti</dt>
+              <dd class="font-semibold text-lg">75 %</dd>
+            </div>
+            <div>
+              <dt class="text-ink-400 dark:text-ink-400">Dostupných otázek</dt>
+              <dd class="font-semibold text-lg" data-field="bank-size">—</dd>
+            </div>
+            <div>
+              <dt class="text-ink-400 dark:text-ink-400">Časový limit</dt>
+              <dd class="font-semibold text-lg">Bez limitu</dd>
+            </div>
+          </dl>
+          <button data-action="start-test"
+            class="w-full py-3.5 rounded-xl bg-brand-600 hover:bg-brand-700 active:bg-brand-800 text-white font-semibold text-base shadow-md shadow-brand-600/30 transition-colors">
+            Spustit nový test
+          </button>
+          <p class="mt-4 text-xs text-center text-ink-400">
+            Otázky i pořadí odpovědí se při každém spuštění zamíchají náhodně.
+          </p>
+        </div>
+
+        <p class="text-center text-xs text-ink-400 mt-6">
+          Aplikaci lze přidat na plochu telefonu jako samostatnou appku (PWA).
+        </p>
+      </div>
+    </div>
+  </template>
+
+  <template id="tpl-quiz">
+    <div class="flex-1 flex flex-col">
+      <header class="sticky top-0 z-10 bg-white/90 dark:bg-ink-900/90 backdrop-blur border-b border-ink-100 dark:border-ink-800" style="padding-top: env(safe-area-inset-top, 0px);">
+        <div class="max-w-2xl mx-auto px-4 py-3">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-sm font-medium text-ink-500 dark:text-ink-300" data-field="progress-label">Otázka 1 z 40</span>
+            <button data-action="finish-test" class="text-sm font-semibold text-red-600 hover:text-red-700 dark:text-red-400">
+              Ukončit a vyhodnotit
+            </button>
+          </div>
+          <div class="h-2 w-full bg-ink-100 dark:bg-ink-800 rounded-full overflow-hidden">
+            <div data-field="progress-bar" class="h-full bg-brand-600 rounded-full transition-all duration-200" style="width:0%"></div>
+          </div>
+        </div>
+      </header>
+
+      <main class="flex-1 max-w-2xl w-full mx-auto px-4 py-6">
+        <div class="bg-white dark:bg-ink-800 rounded-2xl shadow-sm border border-ink-100 dark:border-ink-700 p-5 sm:p-7 fade-in" data-field="question-card">
+          <h2 class="text-lg sm:text-xl font-semibold leading-snug mb-5" data-field="question-text"></h2>
+          <div class="space-y-3" data-field="options-list"></div>
+        </div>
+
+        <div class="mt-5">
+          <p class="text-xs font-medium text-ink-400 mb-2">Přehled otázek — klikněte pro rychlý přechod</p>
+          <div class="flex flex-wrap gap-2" data-field="nav-grid"></div>
+        </div>
+      </main>
+
+      <footer class="sticky bottom-0 bg-white/90 dark:bg-ink-900/90 backdrop-blur border-t border-ink-100 dark:border-ink-800" style="padding-bottom: env(safe-area-inset-bottom, 0px);">
+        <div class="max-w-2xl mx-auto px-4 py-3 flex items-center gap-3">
+          <button data-action="prev-question"
+            class="flex-1 py-3 rounded-xl border border-ink-200 dark:border-ink-700 font-semibold text-ink-600 dark:text-ink-200 disabled:opacity-40 disabled:cursor-not-allowed active:bg-ink-50 dark:active:bg-ink-800 transition-colors">
+            ← Zpět
+          </button>
+          <button data-action="next-question"
+            class="flex-1 py-3 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-semibold shadow-md shadow-brand-600/20 disabled:opacity-40 disabled:cursor-not-allowed transition-colors">
+            Další →
+          </button>
+        </div>
+      </footer>
+    </div>
+  </template>
+
+  <template id="tpl-results">
+    <div class="flex-1 max-w-2xl w-full mx-auto px-4 py-8">
+      <div class="text-center mb-6 fade-in">
+        <div data-field="pass-badge" class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-bold mb-4"></div>
+        <h1 class="text-3xl font-extrabold tracking-tight" data-field="score-text">0 / 0 bodů</h1>
+        <p class="mt-1 text-ink-500 dark:text-ink-300" data-field="percent-text">Úspěšnost 0 %</p>
+      </div>
+
+      <div class="flex gap-3 mb-8">
+        <button data-action="restart-test"
+          class="flex-1 py-3.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-semibold shadow-md shadow-brand-600/30 transition-colors">
+          Spustit nový test
+        </button>
+        <button data-action="go-home"
+          class="px-5 py-3.5 rounded-xl border border-ink-200 dark:border-ink-700 font-semibold text-ink-600 dark:text-ink-200 transition-colors">
+          Domů
+        </button>
+      </div>
+
+      <h2 class="text-sm font-semibold uppercase tracking-wide text-ink-400 mb-3">Přehled odpovědí</h2>
+      <div class="space-y-4" data-field="review-list"></div>
+    </div>
+  </template>
+
+  <script type="module" src="js/app.js"></script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js').catch(() => {});
+      });
+    }
+  </script>
+</body>
+</html>
